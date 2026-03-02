@@ -77,7 +77,7 @@ export default function App() {
                   <div className="flex flex-col gap-6">
                     <a className="text-3xl md:text-4xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Custom Application Development</a>
                     <a className="text-3xl md:text-4xl font-medium text-white flex items-center gap-3 hover:text-[#a3ff47] transition-colors cursor-pointer">
-                      Web Application Development<span className="bg-[#6b46ff] text-white text-[10px] font-bold px-2 py-0.5 rounded">NEW</span>
+                      Web Application Development
                     </a>
                     <a className="text-3xl md:text-4xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Website Development</a>
                     <a className="text-3xl md:text-4xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Mobile Application Development</a>
@@ -91,9 +91,6 @@ export default function App() {
                   <div className="text-[10px] font-mono uppercase tracking-widest text-gray-400 mb-8">Explore</div>
                   <div className="flex flex-col gap-6">
                     <a className="text-2xl md:text-3xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">About Us</a>
-                    <a className="text-2xl md:text-3xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer flex items-start gap-1">
-                      Collection <span className="text-xs font-mono text-gray-400 mt-1">157</span>
-                    </a>
                     <a className="text-2xl md:text-3xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Clients</a>
                     <a className="text-2xl md:text-3xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Careers</a>
                     <a className="text-2xl md:text-3xl font-medium text-white hover:text-[#a3ff47] transition-colors cursor-pointer">Contact Us</a>
