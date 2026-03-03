@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-[#a3ff47] selection:text-[#141414] overflow-x-hidden">
-      <MenuOverlay isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+      {/* <MenuOverlay isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} /> */}
       <Header onMenuClick={() => setIsMenuOpen(true)} />
 
       <div className="relative z-10 bg-[#f4f4f0] rounded-b-[40px] shadow-[0_20px_50px_rgba(0,0,0,0.1)] mb-[100vh] overflow-hidden">
